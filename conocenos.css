@@ -1,0 +1,163 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6F3;/*Color del fondo de la pag*/
+    color: #333;/*Color de las letras de la pag(cuerpo)*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+header {
+
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    text-align: center
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4CAF50;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.conocenos {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F7F6F3; /*Color de fondo*/
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h2{
+    color: #4CAF50;
+}
+
+.mision {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.mision div {
+    background: #fff; /*Color de separación*/
+    color: #333;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+.mision h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.mision ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mision ul li {
+    margin: 10px 0;
+}
+
+.equipo {
+    margin-top: 50px;
+}
+
+.equipo {
+    background: #fff;/*Color del box de instructores*/
+    color: #333;/*Color letra del box de instructores*/
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.miembro img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.miembro h3 {
+    margin-top: 10px;
+}
+
+.miembro p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
