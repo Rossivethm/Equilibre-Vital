@@ -1,0 +1,206 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6F3;/*Color del fondo de la pag*/
+    color: #333;/*Color de las letras de la pag(cuerpo)*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+header {
+
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+    text-align: center
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4CAF50;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+
+.hero {
+    background-image: url('images/hero.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0 60px;
+    margin-top: 60px; /* Ajuste para evitar la superposición del contenido con el header fijo */
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-container {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 70%;
+  height: 350px; /* Altura de la imagen */
+  object-fit: cover;
+  border-radius: 10px; /* Borde redondeado para la imagen */
+  transition: transform 0.3s;
+  }
+
+.image-container img:hover{
+     transform: scale(1.05);
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #4CAF50; /* Fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #000000; /* Letras negras */
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button[type="submit"] {
+    width: 200px; /* Ancho del botón */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #397F3B; /* Color de fondo del botón */
+    color: #FFFFFF; /* Color de las letras del botón */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin-left: auto; /* Alinear el botón al centro */
+    margin-right: auto;
+    display: block;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #9CD39E; /* Cambio de color al pasar el ratón */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
